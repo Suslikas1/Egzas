@@ -1,0 +1,28 @@
+.sidebar {
+    width: 15%;
+    color: white;
+    position: sticky;
+    top: 20px; /* Adjust this value as needed */
+    align-self: flex-start;
+}
+.nuotraukos {
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 100px;
+
+}
+aside {
+	background-color: grey;
+	width: 100px;
+	justify-content: center;
+	margin-left: 900px;
+}
+#rightside {
+    background: #FFF166;
+    float: right;
+    min-height: 500px;
+    padding: 0 4px;
+    width: 160px;
+}

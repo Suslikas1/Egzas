@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	display: flex;
+  	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	text-align: center;
+	background-color: #e68020;
+	color: #ffffff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+nav u {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: right;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+section {
+	flex: 1 1 400px;
+	margin: 0 10px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+aside {
+	flex: 1 1 400px;
+	margin: 0 10px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.gallery img {
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+.centruoti {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.forma {
+	max-width: 400px;
+	padding: 20px;
+	background-color: transparent;
+	border-radius: 5px;
+}
+a:link, a:visited {
+    font-weight: bold;
+    color: #fff;
+    background: #eeaa5d;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: #745a12;
+}
+a {
+    display: block;
+    width: 170px;
+    padding: 4px;
+    margin-top: 10px;
+	text-align: center;
+}
+.kontaktai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.kontaktas {
+    flex-basis: calc(50% - 20px); /* Adjust the spacing as needed */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: grey;
+    border: 1px solid #ccc;
+}
+.sidebar {
+    width: 25%; /* Adjust the width as needed */
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+
+.nustatymai {
+	margin: 20px;
+	justify-content: center;
+	align-items: center;
+}
+body.light {
+	background-color: #f9f9f9;
+	color: #333;
+}
+  
+body.dark {
+	background-color: #272727;
+	color: #f9f9f9;
+}
+span {
+	color: transparent;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.main-content {
+	flex: 1;
+	margin-left: 150px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,51 @@
+.list {
+    width: 120%;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #929191;
+    border: 1px solid #ccc;
+}
+
+.listy {
+    width: 70%;
+    height: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #929191;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.list font[size="5"] {
+    style=“list-style-type:square”;
+    font-size: 24px;
+}
+.list b {
+    font-weight: bold;
+}
+
+.listi {
+    background-image: url("file:///C:/Users/zilio/Desktop/nardo-gray-bmw-m3-f80-gunmetal-wheels-adv1-forged-modular-rims-g.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    color: #000;
+    font-size: 16px;
+    width: 22.5%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 23px;
+    text-decoration: bold;
+}
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+main {
+    float: left;
+}

@@ -1,0 +1,25 @@
+.sidebar {
+	width: 15%;
+	color: white;
+}
+.nuotraukos {
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 200px;
+
+}
+aside {
+	background-color: grey;
+	width: 100px;
+	justify-content: center;
+	margin-left: 900px;
+}
+#rightside {
+    background: #FFF166;
+    float: right;
+    min-height: 500px;
+    padding: 0 4px;
+    width: 160px;
+}
